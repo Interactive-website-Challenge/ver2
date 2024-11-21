@@ -36,21 +36,26 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><img src="images/logo.png" alt="Bootstrap" width="50" height="33"
+          ><img
+            src="images/logo.png"
+            alt="logo"
+            width="50"
+            height="33"
+            class="d-inline-block align-text-top"
         /></a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="about.html"
                 >About us</a
@@ -59,15 +64,14 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="event.html"
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Event Info
+                Event
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
                 <li>
                   <a class="dropdown-item" href="partners.html">Partners</a>
                 </li>
@@ -80,15 +84,21 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link" href="#">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="book-now.html">Book Now</a>
+              <a class="nav-link" href="#">Book now</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact us</a>
+              <a class="nav-link" href="#">Contact us</a>
             </li>
           </ul>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="btn btn-primary me-md-2" type="button">
+              Log in
+            </button>
+            <button class="btn btn-primary" type="button">Sign up</button>
+          </div>
         </div>
       </div>
     </nav>

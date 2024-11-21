@@ -2,6 +2,17 @@
   font-family: "Gelasio";
 }
 
-.nav {
+.nav-link {
   color: black;
+}
+
+/*
+#login {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#signup {
+  margin-left: 5%;
+  margin-right: 5%;
 }
