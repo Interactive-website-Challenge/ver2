@@ -41,3 +41,10 @@ section {
   margin-top: 70px;
   margin-bottom: 70 px;
 }
+
+.mission-p {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
