@@ -1,5 +1,5 @@
 * {
-  font-family: "Gelasio";
+  font-family: "Poppins";
 }
 
 .nav-link {
@@ -42,9 +42,26 @@ section {
   margin-bottom: 70 px;
 }
 
-.mission-p {
+.mission-div {
   display: flex;
   align-items: center;
   margin-top: 70px;
   margin-bottom: 70px;
+}
+
+.mission-div img {
+  margin-right: 2%;
+  width: 40%;
+}
+
+.event-div {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.event-div img {
+  margin-right: 2%;
+  width: 40%;
 }
