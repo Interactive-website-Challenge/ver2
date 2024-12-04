@@ -1,0 +1,72 @@
+* {
+    font-family: "poppins";
+}
+
+.nav-link {
+    color: black;
+  }
+ 
+  #login {
+    background-color: white;
+    color: #4e27b5;
+    border-color: #4e27b5;
+  }
+  
+  #signup {
+    background-color: #4e27b5;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #4e27b5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  h2{
+      font-size: 1.8em;
+      color: #4e27b5;
+      text-align: left;
+       
+  }
+   
+
+.nav-link {
+  color: black;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #4e27b5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+.gallery-item {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  
+  .gallery-item img {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 40%;
+  }
+
+
+
+h2{
+    font-size: 1.8em;
+    color: #4e27b5;
+    text-align: left; 
+}
+  
+  
+       
+  
