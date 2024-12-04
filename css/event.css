@@ -1,85 +1,18 @@
-/* this is to justfy and align text. Use a combination of justify-content and align-items (flex-) .*/
+
+
+.nav-link {
+  color: black;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-/* Header Styles */
-/* Button Styles */
-
 html{
-    font-family: "Gelasio", sans-serif;
+    font-family: "poppins", sans-serif;
     box-sizing: border-box;
     padding-left: 7%;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #4e27b5;
-  display: flex;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
-  flex-direction: row;
-}
-
-li {
-  display: flex;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
-  flex-direction: row;
- }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #9370DB;
-}
-
-/* Tittle Styles */
-/* drop down menu*/
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  width: 20%;
-}
-
-nav ul li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.dropdown {
-  display: none;
-  background-color: #fff;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  position: absolute;
-        
-}
-
-.dropdownparent:hover .dropdown {
-  display: block;
-  background-color: #4e27b5;
-  
-  
-}
-
-nav ul .dropdown li {
-  display: block;
-}
-
 
 h1{
     font-size: 3em;
@@ -91,7 +24,7 @@ h2{
     font-size: 1.8em;
     color: #4e27b5;
     text-align: left;
-  
+     
 }
 
 .highlight {
