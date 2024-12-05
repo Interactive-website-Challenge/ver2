@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+        
     <!--BOOTSTRAP CSS link-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -12,10 +13,18 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+<!--BOOTSTRAP JS link-->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"
+></script>
+
+<!--BOOTSTRAP JS link-->
+<script src="js/bootstrap.min.js"></script>
 
     <!--Custom file to override bootstrap-->
-    
-    <link href="js/event.js">
+        <link href="js/event.js">
 
     <!--Custom file to override Bootstrap-->
     <link href="css/event.css" rel="stylesheet" />
@@ -110,11 +119,11 @@
     <!--Header-->
     <header>
         <h1 class="page-title">Event</h1>
-        <p>Meet other women like you. Female roles models leading in Tech!</p>
     </header>
 
-    <section>
+    <section class="event-overview">
         <h2> Event Overview</h2>
+        <p>Meet other women like you. Female roles models leading in Tech!</p>
         <p>
             <span style="color: black" class="highlight">Women in Tech</span> will take place from <span class="highlight">March 15th to 17th,
                 2024</span>, at the London Olimpia.
@@ -122,44 +131,48 @@
     </section>
     <section>
         <h2>Agenda</h2>
-      <div class="uvp-list"> 
-      <ul>
-            <li><strong>Day 1:</strong>Opening Keynotes, Networking Sessions</li>
-            <li><strong>Day 2:</strong> Workshops, Panel Discussions, Tech Expo</li>
-            <li><strong>Day 3:</strong> Hackathon, Closing Ceremony</li>
-        </ul>
+          <div class="uvp-list"> 
+            <ul>
+              <li><strong>Day 1:</strong>Opening Keynotes, Networking Sessions</li>
+              <li><strong>Day 2:</strong> Workshops, Panel Discussions, Tech Expo</li>
+              <li><strong>Day 3:</strong> Hackathon, Closing Ceremony</li>
+           </ul>
+          </div>
+    </section>
+
+    <section>
+        <h2>Key Features</h2>
+        <div class="uvp-list">
+          <ul class="uvp-list">
+            <li>Workshops and hands-on sessions</li>
+            <li>Insights from industry-leading speakers</li>
+            <li>Opportunities to network withprofessionals</li>
+            <li>A chance to showcase your skills</li>
+          </ul> 
         </div>
     </section>
+
     <section>
         <h2>Registration</h2>
         <p>
             Secure your spot today!
         </p>
-        <a href="book-now.html">Book now!</a>
+        <h3><a href="book-now.html">Book your tickets now!</a></h3>
     </section>
-    <section>
-        <h2>Key Features</h2>
-        <div class="uvp-list">
-             <ul class="uvp-list">
-            <li>Workshops and hands-on sessions</li>
-            <li>Insights from industry-leading speakers</li>
-            <li>Opportunities to network withprofessionals</li>
-            <li>A chance to showcase your skills</li>
-      </ul> 
-  </div>
-    </section>
-
     
-
-
     <footer class="page-footer">
         <!--Contact-->
-        <h3>Contact us!</h3>
-     
-        <p><a href="mailto:event@example.com">event@example.com</a></p>
- <div>
+        <h2>Contact us!</h2>
+             <p><a href="mailto:event@example.com">event@example.com</a></p>
+             
+      <div>
         <input id="newsletter"  type="text" placeholder="Type your email here"/>
-        <button id='mailcontact' onclick="sentemail()" type='button'>Register to get our Newsletter</button>
+        <button id='mailcontact' onclick="emailsent()" type='button'>Register to get our Newsletter</button>
+        <script>
+          function emailsent() {
+              alert('Your email has been received!');
+          }
+          </script>
       </div>
         <!--Icons-->
         <p>LinkedIn</p>
@@ -170,12 +183,7 @@
 
     </footer>
 
-    <script src="js/bootstrap.min.js"></script>
+
 </body>
-<!--BOOTSTRAP JS link-->
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-crossorigin="anonymous"
-></script>
+
 </html>

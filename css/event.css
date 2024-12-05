@@ -27,10 +27,21 @@
   padding-bottom: 100px;
 }
 
+.event-overview {
+text-align: center;
+
+}
+
+section {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 70px;
+  margin-bottom: 70 px;
+}
+
 h2{
-    font-size: 1.8em;
     color: #4e27b5;
-    text-align: left;
+    text-align: center;
      
 }
 
@@ -41,7 +52,7 @@ h2{
 }
 
 .uvp-list ul > li {
-  clear: left;
+  clear: center;
   padding: .5rem 0;
 }
 

@@ -26,11 +26,9 @@
   }
   
   h2{
-      font-size: 1.8em;
       color: #4e27b5;
-      text-align: left;
-       
-  }
+      text-align: center;
+    }
    
 
 .nav-link {
@@ -59,13 +57,6 @@
     width: 40%;
   }
 
-
-
-h2{
-    font-size: 1.8em;
-    color: #4e27b5;
-    text-align: left; 
-}
   
   
        
