@@ -1,0 +1,27 @@
+* {
+  font-family: "Poppins";
+}
+
+:root {
+  --accent-color: #4e27b5;
+  --base-color: white;
+  --text-color: black;
+  --input-color: white;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 12pt;
+  color: var(--text-color);
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(../images/background1.jpg);
+}
