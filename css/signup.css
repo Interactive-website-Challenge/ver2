@@ -25,4 +25,17 @@ body {
   min-height: 100vh;
   background-image: url(../images/background1.jpeg);
   background-size: cover;
+  background-position: right;
+  overflow: hidden;
+
+}
+
+.wrapper {
+  background-color: var(--base-color);
+  height: 65vh;
+  width: max(40%, 600px);
+  padding:10px;
+  border-radius: 0 5px 5px 0;
+
+
 }
