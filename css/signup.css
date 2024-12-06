@@ -33,7 +33,7 @@ body {
 .wrapper {
   background-color: var(--base-color);
   height: 65vh;
-  width: max(40%, 600px);
+  width: max(50%, 600px);
   padding:10px;
   border-radius: 0 5px 5px 0;
 
