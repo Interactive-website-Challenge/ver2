@@ -16,12 +16,11 @@ body {
 
 .card {
     height: 100%;
-    /* Ensures cards fill the parent container */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* Keeps content evenly spaced */
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .card-body {
@@ -60,6 +59,7 @@ body {
 
 .titles {
     margin: 4vw;
+    margin-bottom: 0;
     text-align: center;
     font-size: 3.8rem;
     font-weight: 600;
@@ -70,7 +70,7 @@ body {
 }
 
 .subtitles1 {
-    margin: 1vw;
+    margin: auto;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
@@ -82,14 +82,31 @@ body {
 
 .tiny {
     text-align: center;
-    margin: 1vw;
+    margin: auto;
     color: #b393d3;
+    display: block;
+    margin-bottom: 5vw;
 }
-:not(:hover) .tiny {
+
+.book-here {
+    text-align: center;
+    margin: auto;
+    color: #b393d3;
+    font-weight: bolder;
+    
+
+}
+:not(:hover) .book-here {
     text-decoration: none;
 }
 
-:hover .tiny {
+
+
+:not(:hover)  {
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: none;
     color: #4e27b5;
 }
@@ -118,6 +135,14 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     padding: 1rem;
+}
+
+.location-txt {
+    background-image: linear-gradient(to left, #4e27b5, #b393d3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 2.5rem;
+    color: transparent;
 }
 
 
@@ -157,4 +182,27 @@ body {
     border-radius: 10px;
     border: 2px  solid transparent;
     
+}
+
+
+
+.icon-svg {
+    width: 10em;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.location-box {
+    margin: 5vw;
+
+}
+
+.partner {
+    background-image: linear-gradient(to left, #4e27b5, #b393d3);
+        background-clip: text;
+        -webkit-background-clip: text;
+        font-size: 2.5rem;
+        color: transparent;
 }
