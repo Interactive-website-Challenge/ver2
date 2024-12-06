@@ -59,7 +59,7 @@ body {
 
 
 .titles {
-    margin: 6vw;
+    margin: 4vw;
     text-align: center;
     font-size: 3.8rem;
     font-weight: 600;
@@ -67,6 +67,31 @@ body {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+}
+
+.subtitles1 {
+    margin: 1vw;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    background-image: linear-gradient(to left, #4e27b5, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.tiny {
+    text-align: center;
+    margin: 1vw;
+    color: #b393d3;
+}
+:not(:hover) .tiny {
+    text-decoration: none;
+}
+
+:hover .tiny {
+    text-decoration: none;
+    color: #4e27b5;
 }
 
 
@@ -104,7 +129,7 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
-    max-height: 500px;
+    max-height: 600px;
 }
 
 
@@ -116,4 +141,20 @@ body {
 #footer-description {
     text-align: justify;
     text-justify: auto;
+}
+
+.calendar {
+    margin: 4rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+    outline: 2px #4e27b5 solid;
+    outline-offset: 0.5rem;
+    border-radius: 10px;
+    border: 2px  solid transparent;
+    
 }
