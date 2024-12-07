@@ -69,7 +69,6 @@ form label {
   height: 30px;
   width: 30px;
   color: var(--accent-color);
-  border-radius: 5px 0 0 5px;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -84,11 +83,22 @@ form input {
   height: 30px;
   padding: 1em;
   font: inherit;
-  border-radius: 0 5px 5px 0;
-  border: 2px solid var(--accent-color);
+  border-radius: 5px 5px 5px 5px;
   background-color: var(--input-color);
+  border: var(--input-color);
+  transition: 200ms ease;
+}
 
+form input:hover {
+  border: 2px solid var(--accent-color);
+}
 
+form input:focus {
+  outline: none;
+  border-color: var(--text-color);
+}
 
-
+form input::placeholder {
+  color: var(--text-color);
+  opacity: 0.7;
 }
