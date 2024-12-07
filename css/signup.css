@@ -146,8 +146,9 @@ a:hover{
   }
 }
 
-.incorrect label{
+form div.incorrect label{
   fill: red;
+  color: red;
 }
 
 form div.incorrect input {
