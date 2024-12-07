@@ -102,3 +102,47 @@ form input::placeholder {
   color: var(--text-color);
   opacity: 0.7;
 }
+
+form button {
+  margin-top: 10px;
+  border: none;
+  border-radius: 1000px;
+  padding: 0.8em 3em;
+  background-color: var(--accent-color);
+  color: var(--base-color);
+  font: inherit;
+  font-weight: 600;
+  transition: 200ms ease;
+}
+
+::ng-deep .pointer-cursor {
+  cursor: pointer !important;
+}
+
+
+form button:hover {
+  background-color: var(--text-color);
+}
+
+form button:focus {
+  outline: none;
+  background-color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+a:hover{ 
+  border-bottom: 1px solid var(--accent-color);
+}
+
+@media(max-width: 1100px){
+  .wrapper {
+    width: min(600px, 100%);
+    border-radius: 0;
+  }
+}
+
+
