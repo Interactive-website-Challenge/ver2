@@ -150,6 +150,6 @@ a:hover{
   fill: red;
 }
 
-.incorrect input {
+form div.incorrect input {
   border-color: red;
 }
