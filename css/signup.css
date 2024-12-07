@@ -69,6 +69,7 @@ form label {
   height: 30px;
   width: 30px;
   color: var(--accent-color);
+  fill: var(--accent-color);
   display:flex;
   justify-content: center;
   align-items: center;
