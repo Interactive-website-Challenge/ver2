@@ -145,4 +145,10 @@ a:hover{
   }
 }
 
+.incorrect label{
+  fill: red;
+}
 
+.incorrect input {
+  border-color: red;
+}
