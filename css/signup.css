@@ -6,7 +6,7 @@
   --accent-color: #4e27b5;
   --base-color: white;
   --text-color: black;
-  --input-color: white;
+  --input-color: #e4e2fb;
 
 }
 
@@ -36,6 +36,59 @@ body {
   width: max(50%, 600px);
   padding:10px;
   border-radius: 0 5px 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+form{
+  width: min(400px, 100%);
+  margin-top: 20px;
+  margin-bottom:50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form label {
+  flex-shrink: 0;
+  height: 30px;
+  width: 30px;
+  color: var(--accent-color);
+  border-radius: 5px 0 0 5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+form input {
+  box-sizing: border-box; /*maintain consistent size*/
+  flex-grow: 1; /*to have fully responsive elements*/
+  min-width: 0;
+  height: 30px;
+  padding: 1em;
+  font: inherit;
+  border-radius: 0 5px 5px 0;
+  border: 2px solid var(--accent-color);
+  background-color: var(--input-color);
+
+
 
 
 }
