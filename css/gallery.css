@@ -24,12 +24,14 @@
     padding-top: 100px;
     padding-bottom: 100px;
   }
-  
+  /* h2 will be inside a section. section. all <p> inside the section under h2 will follow this class*/
   h2{
       color: #4e27b5;
-      text-align: center;
     }
    
+ .text-under-h2 {
+    text-align: center;
+  }
 
 .nav-link {
   color: black;
@@ -44,6 +46,8 @@
     padding-bottom: 100px;
   }
   
+ 
+
 .gallery-item {
     display: flex;
     align-items: center;
