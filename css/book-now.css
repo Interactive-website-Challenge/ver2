@@ -2,11 +2,33 @@
     font-family: "Poppins";
 }
 
+:root {
+    --accent-color: #4e27b5;
+    --base-color: white;
+    --text-color: black;
+    --input-color: #e4e2fb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     text-align: center;
+    font-size: 3.8rem;
+    font-weight: 600;
     color: white;
-    padding: 20vh 0 20vh 0;
-    background-color: #4e27b5;
+    padding: 18vh 0 18vh 0;
+    background-color: var(--accent-color);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
 }
 
 .title-p {
@@ -14,3 +36,4 @@ h1 {
     text-align: center;
 
 }
+
