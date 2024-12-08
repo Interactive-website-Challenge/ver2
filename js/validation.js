@@ -8,7 +8,6 @@ const special_characters = ["!","@","#","$","%","^","&","*"];
 
 
 form.addEventListener("submit", (e) =>{
-    // e.preventDefault()
     let errors = [];
 
     if(fullname_input) {
@@ -79,7 +78,21 @@ function getSignupFormErrors(fullname, email, password, repeatPassword) {
 
 }
 
-const allInputs = [fullname_input, email_input, password_input, repeat_password_input];
+function getLoginFormErrors(email, password) {
+    let errors = [];
+    if(email === "" || email == null){
+        errors.push("Email required");
+        email_input.parentElement.classList.add("incorrect");
+    }
+
+    if(password === "" || password == null){
+        errors.push("Password required");
+        password_input.parentElement.classList.add("incorrect");
+    }
+    return errors;
+}
+
+const allInputs = [fullname_input, email_input, password_input, repeat_password_input].filter(input => input != null);
 
 allInputs.forEach(input => {
     input.addEventListener("input", () => {
@@ -89,3 +102,4 @@ allInputs.forEach(input => {
         }
     })
 })
+
