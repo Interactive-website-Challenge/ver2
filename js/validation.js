@@ -64,19 +64,17 @@ function getSignupFormErrors(firstname, email, password, repeatPassword) {
 
     }
 
-    for(let i = 0; i<password.length; i++){
-        for(let j = 0; j < special_characters.length; i++){
-            let count = 0;
-            if(password[i] === special_characters[j]){
+    let count = 0;
+    for(let j = 0; j < special_characters.length; j++){
+            if(password.includes(special_characters[j])){
                 count +=1
-            }
-            if(count === 0){
+            } 
+        }
+    if(count === 0){
                 errors.push("Password must contain a special character");
                 password_input.parentElement.classList.add("incorrect");
             }
-        }
-    }
-
+    
     return errors;
 
 }
@@ -85,7 +83,7 @@ const allInputs = [firstname_input, email_input, password_input, repeat_password
 
 allInputs.forEach(input => {
     input.addEventListener("input", () => {
-        if(input.parentElement.classList.contains("incorret")){
+        if(input.parentElement.classList.contains("incorrect")){
             input.parentElement.classList.remove("incorrect");
             error_message.innerText = "";
         }
