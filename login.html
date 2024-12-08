@@ -3,10 +3,168 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Women in Tech</title>
+    <title>Login</title>
+
+    <!--Custom file to override Bootstrap-->
+    <link href="custom.css" rel="stylesheet">
+    
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css" />
+    
+    <!--CSS file-->
+    <link rel="stylesheet" href="../ver1/css/signup.css">
+    <link rel="stylesheet" href="../ver1/custom.css">
+    
+    
+    
+    
+    <!--Icon library-->
+    <link href="assets\css\fontawesome.css" rel="stylesheet" />
+    <link href="assets\css\all.css" rel="stylesheet" />
+    <link href="assets\css\regular.css" rel="stylesheet" />
+
   </head>
   <body>
+    <div class="wrapper">
+      <h1>Login</h1>
+      <p id="error-message"></p>
+      <form id="form">
+        <div>
+          <label for="email-input"><span>@</span></label>
+          <input type="email" name="email" id="email-input" placeholder="Email" />
+        </div>
+        <div>
+          <label for="password-input"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+              width="24px">
+              <path
+                d="M720-240q25 0 42.5-17.5T780-300q0-25-17.5-42.5T720-360q-25 0-42.5 17.5T660-300q0 25 17.5 42.5T720-240Zm0 120q30 0 56-14t43-39q-23-14-48-20.5t-51-6.5q-26 0-51 6.5T621-173q17 25 43 39t56 14ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80ZM490-80H240q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v52q-18-6-37.5-9t-42.5-3v-40H240v400h212q8 24 16 41.5T490-80Zm230 40q-83 0-141.5-58.5T520-240q0-83 58.5-141.5T720-440q83 0 141.5 58.5T920-240q0 83-58.5 141.5T720-40ZM240-560v400-400Z" />
+            </svg></label>
+          <input type="password" name="password" id="password-input" placeholder="Password" />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account? <a href="/signup.html">Signup</a></p>
+    </div>
     
+    <!-- Footer -->
+    <footer class="text-center text-lg-start" style="background-color: #4e27b5; color:white">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom align-items-center">
+    
+        <div class="me-5 d-none d-lg-block item">
+          <span>Get connected with us on social networks:</span>
+        </div>
+    
+        <div>
+          <a class="btn btn-floating m-1" href="https://www.facebook.com/" role="button" style="color:white"><i
+              class="fab fa-m fa-facebook-f"></i></a>
+    
+          <a class="btn btn-floating m-1" href="https://www.google.com/" role="button" style="color:white"><i
+              class="fab fa-m fa-google"></i></a>
+    
+          <a class="btn btn-floating m-1" href="https://www.instagram.com/" role="button" style="color:white"><i
+              class="fab fa-m fa-instagram"></i></a>
+    
+          <a class="btn btn-floating m-1" href="https://www.linkedin.com/" role="button" style="color:white"><i
+              class="fab fa-m fa-linkedin-in"></i></a>
+    
+          <a class="btn btn-floating m-1" href="https://github.com/" role="button" style="color:white"><i
+              class="fab fa-m fa-github"></i></a>
+        </div>
+    
+      </section>
+      <!-- Section: Social media -->
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Women in Tech
+              </h6>
+              <p id="footer-description">
+                a global initiative dedicated to empowering women through technology. We aim to close the gender
+                gap in the tech
+                industry by providing resources, mentorship, and opportunities to inspire and support women.
+                Join us in creating a more inclusive future!
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Information
+              </h6>
+              <p>
+                <a href="gallery.html" class="text-reset">Gallery</a>
+              </p>
+              <p>
+                <a href="partners.html" class="text-reset">Partners</a>
+              </p>
+              <p>
+                <a href="signup.html" class="text-reset">Sign up</a>
+              </p>
+              <p>
+                <a href="contact.html" class="text-reset">Contact</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                More about us
+              </h6>
+              <p>
+                <a href="book-now.html" class="text-reset">Book now!</a>
+              </p>
+              <p>
+                <a href="FAQ.html" class="text-reset">FAQ</a>
+              </p>
+              <p>
+                <a href="about.html" class="text-reset">About</a>
+              </p>
+              <p>
+                <a href="location.html" class="text-reset">Location</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>1 Street Avenue, London EC2A 4NP</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                support@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i>+44 123 456 789</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="_blank">Women in Tech</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    
+    <!-- JS file -->
+    <script type="text/javascript" src="js/validation.js" defer></script>
 
 
   </body>

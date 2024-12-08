@@ -1,5 +1,5 @@
 const form = document.getElementById("form");
-const firstname_input = document.getElementById("firstname-input");
+const fullname_input = document.getElementById("fullname-input");
 const email_input = document.getElementById("email-input");
 const password_input = document.getElementById("password-input");
 const repeat_password_input = document.getElementById("repeat-password-input");
@@ -11,8 +11,8 @@ form.addEventListener("submit", (e) =>{
     // e.preventDefault()
     let errors = [];
 
-    if(firstname_input) {
-        errors = getSignupFormErrors(firstname_input.value, email_input.value, password_input.value, repeat_password_input.value);
+    if(fullname_input) {
+        errors = getSignupFormErrors(fullname_input.value, email_input.value, password_input.value, repeat_password_input.value);
     } else {
         errors = getLoginFormErrors(email_input.value, password_input.value);
     }
@@ -25,12 +25,12 @@ form.addEventListener("submit", (e) =>{
 
 }) 
 
-function getSignupFormErrors(firstname, email, password, repeatPassword) {
+function getSignupFormErrors(fullname, email, password, repeatPassword) {
     let errors = [];
 
-    if(firstname === "" || firstname == null) {
-        errors.push("First name required");
-        firstname_input.parentElement.classList.add("incorrect"); /*after error occurs, this adds the class incorrect to the div, which activates the css 
+    if(fullname === "" || fullname == null) {
+        errors.push("Full name required");
+        fullname_input.parentElement.classList.add("incorrect"); /*after error occurs, this adds the class incorrect to the div, which activates the css 
         code for the incorrect class*/
     }
 
@@ -79,7 +79,7 @@ function getSignupFormErrors(firstname, email, password, repeatPassword) {
 
 }
 
-const allInputs = [firstname_input, email_input, password_input, repeat_password_input];
+const allInputs = [fullname_input, email_input, password_input, repeat_password_input];
 
 allInputs.forEach(input => {
     input.addEventListener("input", () => {

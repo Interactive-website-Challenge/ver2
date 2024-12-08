@@ -1,0 +1,162 @@
+* {
+    font-family: "Poppins";
+}
+
+:root {
+    --accent-color: #4e27b5;
+    --base-color: white;
+    --text-color: black;
+    --input-color: #e4e2fb;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12pt;
+    color: var(--text-color);
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(../images/background1.jpeg);
+    background-size: cover;
+    background-position: right;
+    overflow: hidden;
+
+}
+
+.wrapper {
+    background-color: var(--base-color);
+    height: 65vh;
+    width: max(50%, 600px);
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+form {
+    width: min(400px, 100%);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form label {
+    flex-shrink: 0;
+    height: 30px;
+    width: 30px;
+    color: var(--accent-color);
+    fill: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+form input {
+    box-sizing: border-box;
+    /*maintain consistent size*/
+    flex-grow: 1;
+    /*to have fully responsive elements*/
+    min-width: 0;
+    height: 30px;
+    padding: 1em;
+    font: inherit;
+    border-radius: 5px 5px 5px 5px;
+    background-color: var(--input-color);
+    border: var(--input-color);
+    transition: 200ms ease;
+}
+
+form input:hover {
+    border: 2px solid var(--accent-color);
+}
+
+form input:focus {
+    outline: none;
+    border-color: var(--text-color);
+}
+
+form input::placeholder {
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+form button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 1000px;
+    padding: 0.8em 3em;
+    background-color: var(--accent-color);
+    color: var(--base-color);
+    font: inherit;
+    font-weight: 600;
+    transition: 200ms ease;
+}
+
+::ng-deep .pointer-cursor {
+    cursor: pointer !important;
+}
+
+
+form button:hover {
+    background-color: var(--text-color);
+}
+
+form button:focus {
+    outline: none;
+    background-color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+a:hover {
+    border-bottom: 1px solid var(--accent-color);
+}
+
+@media(max-width: 1100px) {
+    .wrapper {
+        width: min(600px, 100%);
+        border-radius: 0;
+    }
+}
+
+form div.incorrect label {
+    fill: red;
+    color: red;
+}
+
+form div.incorrect input {
+    border-color: red;
+}
+
+#error-message {
+    color: red;
+}
