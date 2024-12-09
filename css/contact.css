@@ -42,10 +42,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    text-align: center;
-}
-
 p {
     font-size: 1rem;
 }
@@ -94,7 +90,7 @@ form label {
     padding: 0 7px 0 0;
 }
 
-#email{
+#email {
     padding: 0 4px 0 0;
 }
 
@@ -200,5 +196,3 @@ a:hover {
 #error-message {
     color: red;
 }
-
-
