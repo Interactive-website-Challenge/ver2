@@ -71,9 +71,9 @@ p {
     align-items: center;
 }
 
-.third-part {
+/* /* .third-part {
     margin: 40px 0;
-}
+} */
 
 form label {
     flex-shrink: 1;
@@ -82,16 +82,8 @@ form label {
     color: var(--text-color);
 }
 
-.name-adress-number {
+.name-adress-number-message {
     padding: 10px 0;
-}
-
-#name {
-    padding: 0 7px 0 0;
-}
-
-#email {
-    padding: 0 4px 0 0;
 }
 
 form input {
@@ -106,13 +98,11 @@ form input {
     background-color: var(--input-color);
     border: var(--input-color);
     transition: 200ms ease;
-}
+} 
 
-.label-attendee-info {
-    padding: 0 20px;
-}
 
-textarea {
+
+/* textarea {
     box-sizing: border-box;
     flex-grow: 1;
     min-width: 0;
@@ -191,8 +181,8 @@ a:hover {
 
 #first-part div.incorrect input {
     border-color: red;
-}
+} */
 
-#error-message {
+/* #error-message {
     color: red;
-}
+} */
