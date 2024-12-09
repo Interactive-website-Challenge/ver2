@@ -185,7 +185,7 @@ a:hover {
     border-bottom: 1px solid var(--accent-color);
 }
 
-form div.incorrect label {
+#first-part div.incorrect label {
     fill: red;
     color: red;
 }

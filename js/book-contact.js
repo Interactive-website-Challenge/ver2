@@ -38,57 +38,40 @@ function getBookFormErrors(fullname, email, number) {
     }
 
     if(number === "" || number == null) {
-        errors.push("Password required");
-        password_input.parentElement.classList.add("incorrect"); 
+        errors.push("Number required");
+        number_input.parentElement.classList.add("incorrect"); 
     }
-
-    if(repeatPassword === "" || repeatPassword  == null) {
-        errors.push("Repeated Password required");
-        repeat_password_input.parentElement.classList.add("incorrect"); 
-    }
-
-    if(password !== repeatPassword){
-        errors.push("Repeated password does not match password")
-        password_input.parentElement.classList.add("incorrect");
-        repeat_password_input.parentElement.classList.add("incorrect");
-    }
-
-    if(password.length < 12){
-        errors.push("Password must contain at least 12 characters");
-        password_input.parentElement.classList.add("incorrect");
-
-    }
-
-    let count = 0;
-    for(let j = 0; j < special_characters.length; j++){
-            if(password.includes(special_characters[j])){
-                count +=1
-            } 
-        }
-    if(count === 0){
-                errors.push("Password must contain a special character");
-                password_input.parentElement.classList.add("incorrect");
-            }
     
     return errors;
 
 }
 
-function getContactFormErrors(email, password) {
+function getContactFormErrors(email, email, number, message) {
     let errors = [];
-    if(email === "" || email == null){
+    if(fullname === "" || fullname == null){
         errors.push("Email required");
         email_input.parentElement.classList.add("incorrect");
     }
 
-    if(password === "" || password == null){
-        errors.push("Password required");
-        password_input.parentElement.classList.add("incorrect");
+    if(email === "" || email == null) {
+        errors.push("Email required");
+        email_input.parentElement.classList.add("incorrect"); 
     }
+
+    if(number === "" || number == null) {
+        errors.push("Password required");
+        number_input.parentElement.classList.add("incorrect"); 
+    }
+
+    if(message === "" || message == null) {
+        errors.push("Password required");
+        message_input.parentElement.classList.add("incorrect"); 
+    }
+
     return errors;
 }
 
-const allInputs = [fullname_input, email_input, password_input, repeat_password_input].filter(input => input != null);
+const allInputs = [fullname_input, email_input, number_input, email_input].filter(input => input != null);
 
 allInputs.forEach(input => {
     input.addEventListener("input", () => {
