@@ -1,7 +1,8 @@
-const first_form = document.getElementById("first-part");
+const form = document.getElementById("form");
 const fullname_input = document.getElementById("name");
 const email_input = document.getElementById("email");
-const number_input = document.getElementById("number");
+const number_input = document.getElementById("phone");
+const message_input = document.getElementById("message");
 const error_message = document.getElementById("error-message");
 
 
@@ -46,7 +47,7 @@ function getBookFormErrors(fullname, email, number) {
 
 }
 
-function getContactFormErrors(email, email, number, message) {
+function getContactFormErrors(fullname, email, number, message) {
     let errors = [];
     if(fullname === "" || fullname == null){
         errors.push("Email required");
@@ -59,19 +60,19 @@ function getContactFormErrors(email, email, number, message) {
     }
 
     if(number === "" || number == null) {
-        errors.push("Password required");
+        errors.push("Number required");
         number_input.parentElement.classList.add("incorrect"); 
     }
 
     if(message === "" || message == null) {
-        errors.push("Password required");
+        errors.push("Message required");
         message_input.parentElement.classList.add("incorrect"); 
     }
 
     return errors;
 }
 
-const allInputs = [fullname_input, email_input, number_input, email_input].filter(input => input != null);
+const allInputs = [fullname_input, email_input, number_input, message_input].filter(input => input != null);
 
 allInputs.forEach(input => {
     input.addEventListener("input", () => {

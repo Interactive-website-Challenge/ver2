@@ -75,11 +75,6 @@ p {
     align-items: center;
 }
 
-form input {
-    float: right;
-    clear: both;
-}
-
 .third-part {
     margin: 40px 0;
 }
@@ -95,8 +90,17 @@ form label {
     padding: 10px 0;
 }
 
+#name {
+    padding: 0 7px 0 0;
+}
+
+#email{
+    padding: 0 4px 0 0;
+}
 
 form input {
+    float: right;
+    clear: both;
     box-sizing: border-box;
     flex-grow: 1;
     min-width: 0;
@@ -186,11 +190,10 @@ a:hover {
 }
 
 #first-part div.incorrect label {
-    fill: red;
     color: red;
 }
 
-form div.incorrect input {
+#first-part div.incorrect input {
     border-color: red;
 }
 
