@@ -2,11 +2,22 @@
     font-family: "Poppins";
 }
 
+
 :root {
     --accent-color: #4e27b5;
     --base-color: white;
     --text-color: black;
     --input-color: #e4e2fb;
+}
+
+#login {
+    background-color: var(--base-color);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+#signup {
+    background-color: var(--accent-color);
 }
 
 * {
@@ -55,7 +66,7 @@ p {
 
 }
 
-.first-part {
+#first-part {
     overflow: hidden;
     margin-top: 10px;
     margin-bottom: 60px;
