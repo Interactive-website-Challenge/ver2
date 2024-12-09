@@ -137,7 +137,9 @@ form textarea::placeholder {
     opacity: 0.7;
 }
 
-form button {
+#book-now-button {
+    display: block;
+    margin: auto;
     margin-top: 10px;
     border: none;
     border-radius: 1000px;
@@ -154,11 +156,11 @@ form button {
 }
 
 
-form button:hover {
+#book-now-button:hover {
     background-color: var(--text-color);
 }
 
-form button:focus {
+#book-now-button:focus {
     outline: none;
     background-color: var(--text-color);
 }
@@ -170,13 +172,6 @@ a {
 
 a:hover {
     border-bottom: 1px solid var(--accent-color);
-}
-
-@media(max-width: 1100px) {
-    .wrapper {
-        width: min(600px, 100%);
-        border-radius: 0;
-    }
 }
 
 form div.incorrect label {
