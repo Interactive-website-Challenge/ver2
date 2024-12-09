@@ -1,0 +1,198 @@
+* {
+    font-family: "Poppins";
+}
+
+
+:root {
+    --accent-color: #4e27b5;
+    --base-color: white;
+    --text-color: black;
+    --input-color: #e4e2fb;
+}
+
+#login {
+    background-color: var(--base-color);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+#signup {
+    background-color: var(--accent-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: var(--text-color);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: var(--base-color);
+    padding: 18vh 0 18vh 0;
+    background-color: var(--accent-color);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.title-p {
+    margin: 5vh 0;
+    text-align: center;
+
+}
+
+.wrapper {
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#first-part {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-part {
+    margin: 40px 0;
+}
+
+form label {
+    flex-shrink: 1;
+    font-weight: 200;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.name-adress-number {
+    padding: 10px 0;
+}
+
+#name {
+    padding: 0 7px 0 0;
+}
+
+#email {
+    padding: 0 4px 0 0;
+}
+
+form input {
+    float: right;
+    clear: both;
+    box-sizing: border-box;
+    flex-grow: 1;
+    min-width: 0;
+    height: 30px;
+    font: inherit;
+    border-radius: 5px 5px 5px 5px;
+    background-color: var(--input-color);
+    border: var(--input-color);
+    transition: 200ms ease;
+}
+
+.label-attendee-info {
+    padding: 0 20px;
+}
+
+textarea {
+    box-sizing: border-box;
+    flex-grow: 1;
+    min-width: 0;
+    padding: 1em;
+    vertical-align: top;
+    background-color: var(--input-color);
+    border: var(--input-color);
+    border-radius: 5px 5px 5px 5px;
+    transition: 200ms ease;
+
+}
+
+form input:hover {
+    border: 2px solid var(--accent-color);
+}
+
+form input:focus {
+    outline: none;
+    border-color: var(--text-color);
+}
+
+form textarea:hover {
+    border: 2px solid var(--accent-color);
+}
+
+form textarea:focus {
+    outline: none;
+    border-color: var(--text-color);
+}
+
+form textarea::placeholder {
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+#book-now-button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 1000px;
+    padding: 0.8em 3em;
+    background-color: var(--accent-color);
+    color: var(--base-color);
+    font: inherit;
+    font-weight: 600;
+    transition: 200ms ease;
+}
+
+::ng-deep .pointer-cursor {
+    cursor: pointer !important;
+}
+
+
+#book-now-button:hover {
+    background-color: var(--text-color);
+}
+
+#book-now-button:focus {
+    outline: none;
+    background-color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+a:hover {
+    border-bottom: 1px solid var(--accent-color);
+}
+
+#first-part div.incorrect label {
+    color: red;
+}
+
+#first-part div.incorrect input {
+    border-color: red;
+}
+
+#error-message {
+    color: red;
+}
