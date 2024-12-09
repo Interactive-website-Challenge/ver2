@@ -91,25 +91,27 @@
             <h2>Registration Form</h2>
 
             <div class = "wrapper">
-            <form>
-                <fieldset class ="first-part">
+            <form class ="first-part">
+                <fieldset >
                     <h3>Personal information</h3>
                     <div class = "name-adress-number">
-                    <label for="name">Full Name:</label>
+                    <label class ="label-attendee-info" for="name">Full Name:</label>
                     <input type="text" id="name" name="name" required>
                     </div>
 
                     <div class = "name-adress-number">
-                    <label for="email">Email Address:</label>
+                    <label class ="label-attendee-info" for="email">Email Address:</label>
                     <input type="email" id="email" name="email" required>
                     </div>
                     
                     <div class = "name-adress-number">
-                    <label for="phone">Phone number:</label>
+                    <label class ="label-attendee-info" for="phone">Phone number:</label>
                     <input type="tel" id="phone" name="phone" required>
                     </div>
                 </fieldset>
-            
+                </form>
+
+                <form action="">
                 <fieldset>
                     <div>
                     <label for="comments">Special Requests/Comments:</label>

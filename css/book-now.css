@@ -52,12 +52,17 @@ p {
 }
 
 .first-part {
+    overflow: hidden;
     margin-top: 10px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+}
+
+form input {
+    float: right;
+    clear: both;
 }
 
 .third-part {
@@ -68,11 +73,14 @@ form label {
     font-weight: 200;
 }
 
+.name-adress-number {
+    padding: 10px 0;
+}
+
+
 form input {
     box-sizing: border-box;
-    /*maintain consistent size*/
     flex-grow: 1;
-    /*to have fully responsive elements*/
     min-width: 0;
     height: 30px;
     padding: 1em;
@@ -82,3 +90,8 @@ form input {
     border: var(--input-color);
     transition: 200ms ease;
 }
+
+.label-attendee-info {
+    padding: 0 20px;
+}
+
