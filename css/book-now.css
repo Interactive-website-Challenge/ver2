@@ -63,3 +63,22 @@ p {
 .third-part {
     margin: 40px 0;
 }
+
+form label {
+    font-weight: 200;
+}
+
+form input {
+    box-sizing: border-box;
+    /*maintain consistent size*/
+    flex-grow: 1;
+    /*to have fully responsive elements*/
+    min-width: 0;
+    height: 30px;
+    padding: 1em;
+    font: inherit;
+    border-radius: 5px 5px 5px 5px;
+    background-color: var(--input-color);
+    border: var(--input-color);
+    transition: 200ms ease;
+}
