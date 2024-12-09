@@ -101,32 +101,31 @@
                     <div class="name-adress-number-message">
                     <legend>Your Information</legend>
                     <label class="user-info" for="name">Full Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    <input type="text" id="name" name="name" size = "56" required>
                     </div>
 
                     <div class="name-adress-number-message">
                     <label class="user-info" for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <input type="email" id="email" name="email" size = "55" required>
                     </div>
 
                     <div class="name-adress-number-message">
                     <label class="user-info" for="phone">Phone Number:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    <input type="tel" id="phone" name="phone" size = "55" required>
                     </div>
 
                     <div class="name-adress-number-message">
                     <label class="user-info" for="message">Your Message:</label>
-                    <textarea id="message" name="message" rows="6" placeholder="Enter your message here" required></textarea>
+                    <textarea id="message" name="message" rows="5" cols="50" placeholder="Enter your message here" required></textarea>
                     </div>
                 </fieldset>
             
                 <fieldset>
                     <legend>Preferred Method of Contact</legend>
-                    <label for="contact-email">Email</label>
-                    <input type="radio" id="contact-email" name="contact_method" value="email" checked>
-            
-                    <label for="contact-phone">Phone</label>
-                    <input type="radio" id="contact-phone" name="contact_method" value="phone">
+                        <input type="radio" id="email" name="email" value="email" checked>
+                        <label for="newsletter-yes">Email</label><br>
+                        <input type="radio" id="mobile-phone" name="mobile-phone" value="mobile-phone">
+                        <label for="newsletter-no">Phone</label>
                 </fieldset>
             
                 <button type="submit">Submit Message</button>
