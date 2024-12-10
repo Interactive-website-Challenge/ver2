@@ -176,14 +176,3 @@ form textarea::placeholder {
     background-color: var(--text-color);
 }
 
-form div.incorrect label {
-    color: red;
-}
-
-form div.incorrect input {
-    border-color: red;
-} 
-
-#error-message {
-    color: red;
-}
