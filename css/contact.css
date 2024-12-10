@@ -71,9 +71,6 @@ p {
     align-items: center;
 }
 
-/* /* .third-part {
-    margin: 40px 0;
-} */
 legend {
     text-align: center;
 }
@@ -130,7 +127,12 @@ textarea {
 
 }
 
-/* 
+.last-part {
+    text-align: center;
+
+}
+
+
 form input:hover {
     border: 2px solid var(--accent-color);
 }
@@ -153,11 +155,12 @@ form textarea::placeholder {
     color: var(--text-color);
     opacity: 0.7;
 }
-
-#book-now-button {
+ 
+#contact-button {
     display: block;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 1000px;
     padding: 0.8em 3em;
@@ -173,32 +176,23 @@ form textarea::placeholder {
 }
 
 
-#book-now-button:hover {
+#contact-button:hover {
     background-color: var(--text-color);
 }
 
-#book-now-button:focus {
+#contact-button:focus {
     outline: none;
     background-color: var(--text-color);
 }
 
-a {
-    text-decoration: none;
-    color: var(--accent-color);
-}
-
-a:hover {
-    border-bottom: 1px solid var(--accent-color);
-}
-
-#first-part div.incorrect label {
+form div.incorrect label {
     color: red;
 }
 
-#first-part div.incorrect input {
+form div.incorrect input {
     border-color: red;
-} */
+} 
 
-/* #error-message {
+#error-message {
     color: red;
-} */
+}
