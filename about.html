@@ -3,23 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Meta Description -->
-    <meta name="description"
-      content="Women in Tech is a global initiative dedicated to empowering women in the tech industry through mentorship, events, and resources. Join us to inspire and support women in technology.">
-    
-    <!-- Meta Keywords -->
-    <meta name="keywords"
-      content="Women in Tech, tech events, women empowerment, mentorship, technology industry, digital innovation">
-    
-    <!--Social Media Sharing -->
-    <meta property="og:title" content="Women in Tech - Empowering Women in Technology">
-    <meta property="og:description"
-      content="Join the Women in Tech initiative to inspire and support women in technology through mentorship, resources, and events.">
-    <meta property="og:image" content="images/logo.png">
-    <meta property="og:url" content="https://WomeninTech.com">
-    <meta property="og:type" content="website">
-
     <title>Women in Tech</title>
 
     <!--BOOTSTRAP CSS link-->
@@ -31,6 +14,7 @@
     />
 
     <!--Custom file to override Bootstrap-->
+    <link href="custom.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet" />
 
     <!--Icon library-->
@@ -107,9 +91,9 @@
     </header>
 
     <section class="slogan">
-      <h2>Meet other women like you.</h2>
-      <p>
-        Female role models leading in Tech!
+      <h2 class="titles">Meet other women like you.</h2>
+      <p class="subtitles1">
+        Women role models leading in Tech!
       </p>
     </section>
 
@@ -122,7 +106,16 @@
         <img src="images/about-image1.jpg" alt="a group of women" />
       </div>
     </section>
-    
+    <section>
+      <h2>Event Overview</h2>
+      <div class="event-div">
+        <p>
+          Scheduled for <span>March 15-17, 2024</span> this is a unique opportunity to connect with like-minded women who are passionate about coding and technology. Whether you're just starting out or looking to advance your career, our event offers invaluable workshops, mentorship sessions, and networking opportunities tailored just for you.
+        </p>
+        <img src="images/about-image2.jpg" alt="conference image" />
+      </div>
+      <button id = "book-tickets-button"><a id="book-tickets-link" href="book-now.html">Book your ticket now!</a></button>
+    </section>
     <section>
       <h2>Our Team</h2>
       <p>

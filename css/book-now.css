@@ -56,7 +56,7 @@ p {
 }
 
 .wrapper {
-    height: 100vh;
+    height: 90vh;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -87,14 +87,6 @@ form label {
 }
 
 
-#name {
-    padding: 0 7px 0 0;
-}
-
-#email{
-    padding: 0 4px 0 0;
-}
-
 form input {
     display: block;
     float: right;
@@ -103,6 +95,7 @@ form input {
     flex-grow: 1;
     min-width: 0;
     height: 30px;
+    padding-left: 1em;
     font: inherit;
     border-radius: 5px 5px 5px 5px;
     background-color: var(--input-color);
@@ -187,18 +180,5 @@ a:hover {
     border-bottom: 1px solid var(--accent-color);
 }
 
-form div.incorrect label {
-    color: red;
-}
-
-form div.incorrect input {
-    border-color: red;
-    font-weight: bold;
-}
-
-#error-message {
-    color: red;
-    background-color: #ffe6e6;
-}
 
 
