@@ -1,11 +1,9 @@
 name: Generate Sitemap
 
 on:
-  push: 
-   - main
+  push:
     branches:
       - main
-workflow_dispatched:
 
 jobs:
   build:
