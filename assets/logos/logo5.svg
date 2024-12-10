@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="33.5404 3.19385 435.913 484.65" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path d="M334.008 89.4906C288.309 43.2731 213.796 42.853 167.578 88.5523L79.495 175.648C33.2538 221.37 32.8567 295.857 78.548 342.067C78.548 342.067 166 430.51 166 430.51C211.722 476.751 286.22 477.142 332.43 431.45C332.43 431.45 420.514 344.354 420.514 344.354C466.755 298.631 467.141 224.133 421.45 177.924L334.008 89.4906ZM252.207 170.355L339.651 258.791C340.677 259.829 340.668 261.503 339.63 262.53L251.523 349.649C250.485 350.675 248.81 350.666 247.784 349.627L160.34 261.192C159.325 260.166 159.345 258.494 160.39 257.46C161.079 256.78 247.787 171.044 248.475 170.364C249.551 169.3 251.222 169.359 252.207 170.355Z" id="Fill"/>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="484.65" id="Filter" width="435.913" x="33.5404" y="3.19385">
+<feDropShadow dx="1.49541" dy="9.88755" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="484.65" width="435.913" x="33.5404" y="3.19385"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer" vectornator:layerName="Layer">
+<g filter="url(#Filter)" vectornator:layerName="Curve 6" vectornator:shadowAngle="1.42069" vectornator:shadowColor="#000000" vectornator:shadowOffset="10" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="10">
+<mask height="459.65" id="StrokeMask" maskUnits="userSpaceOnUse" width="410.913" x="44.545" y="5.8063">
+<rect fill="#000000" height="459.65" stroke="none" width="410.913" x="44.545" y="5.8063"/>
+<use fill="#ffffff" fill-rule="evenodd" stroke="none" xlink:href="#Fill"/>
+</mask>
+<use fill="none" mask="url(#StrokeMask)" stroke="#ce2e59" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="35.3247" xlink:href="#Fill"/>
+</g>
+</g>
+</svg>
