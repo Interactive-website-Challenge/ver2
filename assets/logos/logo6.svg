@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="29.1159 54.2165 435.592 435.592" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="435.592" id="Filter" width="435.592" x="29.1159" y="54.2165">
+<feDropShadow dx="-3.08805" dy="12.0126" flood-color="#000000" flood-opacity="0.333" in="SourceGraphic" result="Shadow" stdDeviation="17.4547"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="435.592" width="435.592" x="29.1159" y="54.2165"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer" vectornator:layerName="Layer">
+<path d="M250 129.585L296.109 213.891L380.415 260L296.109 306.109L250 390.415L203.891 306.109L119.585 260L203.891 213.891L250 129.585Z" fill="none" filter="url(#Filter)" stroke="#1d4f9e" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="41.9808" vectornator:layerName="Star 1" vectornator:shadowAngle="1.82242" vectornator:shadowColor="#000000" vectornator:shadowOffset="12.4031" vectornator:shadowOpacity="0.333" vectornator:shadowRadius="34.9095"/>
+</g>
+</svg>
