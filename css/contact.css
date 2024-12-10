@@ -53,7 +53,7 @@ p {
 }
 
 .wrapper {
-    height: 90vh;
+    height: 110vh;
     padding: 15px;
     display: flex;
     flex-direction: column;
