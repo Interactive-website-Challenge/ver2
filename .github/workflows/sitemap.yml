@@ -17,8 +17,8 @@ jobs:
     - name: Generate Sitemap
       uses: cicirello/generate-sitemap@v1
       with:
-        sitemap-path: sitemap.xml
-        sitemap-type: xml
+        path-to-root: .
+        sitemap-format: xml
 
     - name: Commit and push sitemap
       env:
