@@ -46,7 +46,7 @@ function getContactFormErrors(fullname, email, number, message) {
     return errors;
 }
 
-const allInputs = [fullname_input, email_input, number_input];
+const allInputs = [fullname_input, email_input, number_input, message_input];
 
 allInputs.forEach(input => {
     input.addEventListener("input", () => {
