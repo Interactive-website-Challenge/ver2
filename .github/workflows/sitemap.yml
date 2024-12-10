@@ -21,9 +21,12 @@ jobs:
         sitemap-type: xml
 
     - name: Commit and push sitemap
+      env:
+        ACTIONS_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_TOKEN }}@github.com/${{ github.repository }}
         git add sitemap.xml
         git commit -m 'Generate sitemap'
         git push
