@@ -248,3 +248,7 @@ a:hover {
     outline: none;
     background-color: black;
 }
+
+.marg {
+    padding: 2rem;
+}
