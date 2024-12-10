@@ -81,14 +81,12 @@ form label {
     font-weight: 200;
     font-size: 1rem;
     color: var(--text-color);
-}
-
-.name-adress-number-message {
-    padding: 10px 0;
+    margin-bottom: 20px;
 }
 
 
 form input {
+    display: block;
     float: right;
     clear: both;
     box-sizing: border-box;

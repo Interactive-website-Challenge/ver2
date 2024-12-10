@@ -50,10 +50,9 @@ p {
     font-size: 1rem;
 }
 
-.title-p {
+#title-p {
     margin: 5vh 0;
     text-align: center;
-
 }
 
 .wrapper {
@@ -84,11 +83,9 @@ form label {
     font-weight: 200;
     font-size: 1rem;
     color: var(--text-color);
+    margin-bottom: 20px;
 }
 
-.name-adress-number {
-    padding: 10px 0;
-}
 
 #name {
     padding: 0 7px 0 0;
@@ -99,6 +96,7 @@ form label {
 }
 
 form input {
+    display: block;
     float: right;
     clear: both;
     box-sizing: border-box;
@@ -189,16 +187,18 @@ a:hover {
     border-bottom: 1px solid var(--accent-color);
 }
 
-#first-part div.incorrect label {
+form div.incorrect label {
     color: red;
 }
 
-#first-part div.incorrect input {
+form div.incorrect input {
     border-color: red;
+    font-weight: bold;
 }
 
 #error-message {
     color: red;
+    background-color: #ffe6e6;
 }
 
 
