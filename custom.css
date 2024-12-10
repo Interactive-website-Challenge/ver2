@@ -80,6 +80,14 @@ body {
     -webkit-background-clip: text;
 }
 
+.titles2 {
+    font-weight: 400;
+        background-image: linear-gradient(to left, #4e27b5, #b393d3);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+}
+
 .tiny {
     text-align: center;
     margin: auto;
@@ -187,10 +195,10 @@ a:hover {
 
 
 .icon-svg {
-    width: 10em;
+    width: 13em;
     height: auto;
     display: inline-block;
-    margin: 0 auto;
+    margin: 2rem auto;
 
 }
 
@@ -206,4 +214,6 @@ a:hover {
         font-size: 2.5rem;
         color: transparent;
 }
+
+
 
